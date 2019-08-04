@@ -106,7 +106,7 @@ function getFact() {
     Math.round(Math.random() * Math.floor(facts.length))
   ].toLowerCase();
 
-  return `Did you know ${fact}`;
+  return `did you know ${fact}`;
 }
 
 module.exports = { getFact: getFact };
