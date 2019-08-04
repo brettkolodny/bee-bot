@@ -1,0 +1,23 @@
+{
+  "name": "bee-bot",
+  "version": "0.1.0",
+  "description": "Buzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettkolodny/bee-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettkolodny/bee-bot/issues"
+  },
+  "homepage": "https://github.com/brettkolodny/bee-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "request": "^2.88.0"
+  }
+}
