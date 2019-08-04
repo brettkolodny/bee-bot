@@ -11,6 +11,8 @@ client.on("message", async msg => {
   const message = msg.content.toLowerCase();
   if (message == ">buzz") {
     replyWithBees(msg);
+  } else if (message.includes("bee")) {
+    msg.react("🐝");
   }
 });
 
