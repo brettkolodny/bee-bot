@@ -22,11 +22,15 @@ async function replyWithBees(msg) {
   }&q=bee&image_type=photo&page=${Math.round(Math.random() * Math.floor(20))}`;
 
   const beeURL = await request.get(getURL, async (err, res, body) => {
-    let pic = err
-      ? "http://2.bp.blogspot.com/-QOJMKcOSx2s/UYgJn07K5gI/AAAAAAAAEhw/KUUrTJSpIsQ/s1600/4+bee+movie+barry+sunglasses+pool.jpg"
-      : JSON.parse(body).hits[0].largeImageURL;
-
-    msg.reply(`${facts.getFact()}`, { embed: { image: { url: pic } } });
+    let picURL =
+      "http://2.bp.blogspot.com/-QOJMKcOSx2s/UYgJn07K5gI/AAAAAAAAEhw/KUUrTJSpIsQ/s1600/4+bee+movie+barry+sunglasses+pool.jpg";
+    if (!err) {
+      const jsonBody = JSON.parse(body);
+      picURL =
+        jsonBody.hits[Math.floor(Math.random() * jsonBody.hits.length)]
+          .largeImageURL;
+    }
+    msg.reply(`${facts.getFact()}`, { embed: { image: { url: picURL } } });
   });
 }
 
