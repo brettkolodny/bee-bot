@@ -102,9 +102,7 @@ const facts = [
 ];
 
 function getFact() {
-  const fact = facts[
-    Math.round(Math.random() * Math.floor(facts.length))
-  ].toLowerCase();
+  const fact = facts[Math.floor(Math.random() * facts.length)].toLowerCase();
 
   return `did you know ${fact}`;
 }
