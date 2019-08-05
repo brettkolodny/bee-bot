@@ -106,7 +106,16 @@ const facts = [
   "The natural fruit sugars in honey – fructose and glucose – are quickly digested by the body. This is why sportsmen and athletes use honey to give them a natural energy boost?",
   "When a bee finds a good source of nectar it flies back to the hive and shows its friends where the nectar source is by doing a dance which positions the flower in relation to the sun and hive. This is known as the ‘waggle dance?’",
   "Honey’s ability to attract and retain moisture means that it has long been used as a beauty treatment. It was part of Cleopatra’s daily beauty ritual?",
-  "Honey is incredibly healthy and includes enzymes, vitamins, minerals. It’s the only food that contains “pinocembrin”, an antioxidant associated with improved brain functioning?"
+  "Honey is incredibly healthy and includes enzymes, vitamins, minerals. It’s the only food that contains “pinocembrin”, an antioxidant associated with improved brain functioning?",
+  "If a queen bee is removed from a hive, the colony will know within 15 minutes?",
+  "A good queen may lay as many as 1,000 to 2,000 eggs per day during Spring?",
+  "A honey bee can visit between 50 and 100 flowers during a foraging trip?",
+  "Honey bees must gather nectar from 2 million flowers to make one pound of honey?",
+  "The high moisture content of fresh nectar would cause spoilage? By converting the nectar to honey, the bees are able to store food for months at a time.",
+  "Larva that “hatches” from a honey bee egg will be fed about 1,300 times per day?",
+  "Honey bee venom is different than wasp venom? You can be allergic to one and not the other.",
+  "Honey bees cannot see the color red? UV patterns on the red flowers guide bees to nectar.",
+  "Honey bees are most active between 60° and 100°F?"
 ];
 
 function getFact() {
