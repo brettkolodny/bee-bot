@@ -55,7 +55,7 @@ const facts = [
   "In the United States, more than 300 different kinds of honey are produced every year? The variety in color and flavor is determined by the types of flowers from which the bees collect nectar?",
   "The European honey bee was brought over to North America by the Shakers? Because of this, Native Americans referred to honey bees as the “White Man’s Fly”?",
   "Honey bees did not spread to Alaska until 1927?",
-  "During the American Revolution, George Washington said “It was the cackling geese that saved Rome, but it was the bees that saved America?” Read the full story here?",
+  "During the American Revolution, George Washington said “It was the cackling geese that saved Rome, but it was the bees that saved America?",
   "Honey bees have 170 odorant receptors, and have a sense of smell 50 times more powerful than a dog?",
   "Every bee colony has its own distinct scent so that members can identify each other?",
   "A hive is perennial, meaning that it becomes inactive in the winter but “awakens” again in the spring? When individuals die, they are quickly replace – workers every 6-8 weeks, and the queen every 2-3 years? Because of this, a hive could technically be immortal!",

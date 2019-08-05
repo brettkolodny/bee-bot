@@ -18,6 +18,15 @@ client.on("message", async msg => {
       });
 
       return;
+    } else if (msg.channel.name == "mashallah") {
+      msg.reply("الله يحب النحل", {
+        embed: {
+          image: {
+            url:
+              "https://cdn.discordapp.com/attachments/471500645099241474/607989485774438400/d2ogkd3-914ce616-1154-44e5-a908-4778af3359d1.png"
+          }
+        }
+      });
     }
 
     replyWithBees(msg);
