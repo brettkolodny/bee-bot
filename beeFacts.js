@@ -98,7 +98,15 @@ const facts = [
   "Bees are being used to study dementia? When a bee takes on a new job usually done by a younger bee, its brain stops aging!",
   "Bees have their own “facial recognition software,” and can recognize human faces?",
   "Bees use the sun as a compass, and on cloudy days, use polarized light to find their way?",
-  "Honey made from rhododendron is poisonous, though rarely fatal?"
+  "Honey made from rhododendron is poisonous, though rarely fatal?",
+  "The queen bee can live up to 5 years and is the only bee that lays eggs. She is the busiest in the summer months, when the hive needs to be at its maximum strength, and lays up to 2500 eggs per day?",
+  "Larger than the worker bees, the male honey bees (also called drones), have no stinger and do no work. All they do is mate?",
+  "Honey has always been highly regarded as a medicine. It is thought to help with everything from sore throats and digestive disorders to skin problems and hay fever?",
+  "Honey has antiseptic properties and was historically used as a dressing for wounds and a first aid treatment for burns and cuts?",
+  "The natural fruit sugars in honey – fructose and glucose – are quickly digested by the body. This is why sportsmen and athletes use honey to give them a natural energy boost?",
+  "When a bee finds a good source of nectar it flies back to the hive and shows its friends where the nectar source is by doing a dance which positions the flower in relation to the sun and hive. This is known as the ‘waggle dance?’",
+  "Honey’s ability to attract and retain moisture means that it has long been used as a beauty treatment. It was part of Cleopatra’s daily beauty ritual?",
+  "Honey is incredibly healthy and includes enzymes, vitamins, minerals. It’s the only food that contains “pinocembrin”, an antioxidant associated with improved brain functioning?"
 ];
 
 function getFact() {
