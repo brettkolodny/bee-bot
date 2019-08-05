@@ -29,7 +29,7 @@ client.on("message", async msg => {
 async function replyWithBees(msg) {
   const getURL = `https://pixabay.com/api/?key=${
     process.env.PICKEY
-  }&q=bee&image_type=photo&page=${Math.round(Math.random() * Math.floor(20))}`;
+  }&q=bee&image_type=photo&page=${Math.floor(Math.random() * 20)}`;
 
   request.get(getURL, async (err, res, body) => {
     let picURL =
