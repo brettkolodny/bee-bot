@@ -27,6 +27,8 @@ client.on("message", async msg => {
           }
         }
       });
+
+      return;
     }
 
     replyWithBees(msg);
