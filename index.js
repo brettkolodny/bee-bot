@@ -34,7 +34,7 @@ async function replyWithBees(msg) {
   request.get(getURL, async (err, res, body) => {
     let picURL =
       "http://2.bp.blogspot.com/-QOJMKcOSx2s/UYgJn07K5gI/AAAAAAAAEhw/KUUrTJSpIsQ/s1600/4+bee+movie+barry+sunglasses+pool.jpg";
-    if (!err) {
+    if (!err && res.statusCode != 400) {
       const jsonBody = JSON.parse(body);
       picURL =
         jsonBody.hits[Math.floor(Math.random() * jsonBody.hits.length)]
