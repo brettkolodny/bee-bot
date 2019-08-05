@@ -115,7 +115,11 @@ const facts = [
   "Larva that “hatches” from a honey bee egg will be fed about 1,300 times per day?",
   "Honey bee venom is different than wasp venom? You can be allergic to one and not the other.",
   "Honey bees cannot see the color red? UV patterns on the red flowers guide bees to nectar.",
-  "Honey bees are most active between 60° and 100°F?"
+  "Honey bees are most active between 60° and 100°F?",
+  "A toxin in bee venom called melittin may prevent HIV? Melittin can kill HIV by poking holes into the virus's protective envelope.",
+  "During chillier seasons, worker bees can live for nine months? But in the summer, they rarely last longer than six weeks.",
+  "Scientists at Newcastle University found that nectar laced with caffeine helps bees remember where the flower is, increasing the chances of a return visit?",
+  "Researchers at Royal Holloway University in London found that bumblebees fly the shortest route possible between flowers? So far, they're the only animals known to solve the problem."
 ];
 
 function getFact() {
