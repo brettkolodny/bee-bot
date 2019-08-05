@@ -19,7 +19,7 @@ client.on("message", async msg => {
 
       return;
     } else if (msg.channel.name == "mashallah") {
-      msg.reply("الله، سوريا، بشار و بس", {
+      msg.reply("الله يحب النحل", {
         embed: {
           image: {
             url:
