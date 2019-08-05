@@ -67,7 +67,7 @@ function getWaifu() {
     "https://static.zerochan.net/Nardack.full.283631.jpg"
   ];
 
-  return waifus[Math.floor(Math.random * waifus.length)];
+  return waifus[Math.floor(Math.random() * waifus.length)];
 }
 
 client.login(process.env.TOKEN);
