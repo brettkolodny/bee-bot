@@ -65,8 +65,7 @@ function getWaifu() {
     "https://vignette.wikia.nocookie.net/monstergirlencyclopedia/images/2/2b/Honey_Bee.jpeg/revision/latest?cb=20150121222651",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQenIP9x0810V7LfK3rft6EWuviK-rpaeTTf7MUVSmbLFta-AoNfw",
     "https://static.zerochan.net/Nardack.full.283631.jpg",
-    "https://cdn.discordapp.com/attachments/507945456064790553/608009488162881586/hqdefault.png",
-    "https://cdn.discordapp.com/attachments/507945456064790553/608127613759782922/BEE.webm"
+    "https://cdn.discordapp.com/attachments/507945456064790553/608009488162881586/hqdefault.png"
   ];
 
   return waifus[Math.floor(Math.random() * waifus.length)];
