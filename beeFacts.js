@@ -119,7 +119,8 @@ const facts = [
   "A toxin in bee venom called melittin may prevent HIV? Melittin can kill HIV by poking holes into the virus's protective envelope.",
   "During chillier seasons, worker bees can live for nine months? But in the summer, they rarely last longer than six weeks.",
   "Scientists at Newcastle University found that nectar laced with caffeine helps bees remember where the flower is, increasing the chances of a return visit?",
-  "Researchers at Royal Holloway University in London found that bumblebees fly the shortest route possible between flowers? So far, they're the only animals known to solve the problem."
+  "Researchers at Royal Holloway University in London found that bumblebees fly the shortest route possible between flowers? So far, they're the only animals known to solve the problem.",
+  'I went into a pet shop and asked for twelve bees.\nThe shopkeeper counted out thirteen and handed them over.\n"You’ve given me one too many."\n"That one is a freebie."'
 ];
 
 function getFact() {
