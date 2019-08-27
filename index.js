@@ -35,6 +35,10 @@ client.on("message", async msg => {
     replyWithBees(msg);
   } else if (/(?:^|\W)(bee|bees|beez)(?:$|\W)/g.test(message)) {
     msg.react("🐝");
+  } else if (message.toLowerCase() == "ding") {
+    if (msg.channel.name == "classic-wow") {
+      msg.react("🐝");
+    }
   }
 });
 
